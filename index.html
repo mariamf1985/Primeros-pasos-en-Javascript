@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Primeros pasos JS</title>
   </head>
   <body>
@@ -22,6 +22,35 @@
     <section id="Arrays">
       <h2>Arrays</h2>
       <script src="./arrays.js"></script>
+    </section>
+    <section id="DOM">
+      <h2>DOM manipulation</h2>
+      <button id="button">Click me</button>
+      <p id="paragraph">Lucas is playing "Kirby Star Allies" today.</p>
+      <button onclick="toggleVisibility()">Show/Hide</button>
+      <p id="hiddenParagraph" style="display: none">
+        This paragraph is hidden.
+      </p>
+      <h3>Names:</h3>
+      <ul id="namesList"></ul>
+      <h3>Numbers:</h3>
+      <p id="numbersCount"></p>
+
+      <h3>Form:</h3>
+      <div id="formContainer"></div>
+
+      <h3>Objects Table:</h3>
+      <table id="objectsTable" border="1">
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Status</th>
+          <th>Species</th>
+          <th>Type</th>
+          <th>Gender</th>
+        </tr>
+      </table>
+      <script src="./dom.js"></script>
     </section>
   </body>
 </html>
